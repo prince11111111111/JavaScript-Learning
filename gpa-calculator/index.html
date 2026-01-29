@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel = "stylesheet" href = "style.css"/>
+</head>
+<body>
+    <header>
+        <div class="info">
+            <img src="info-icon.png" alt="info-icon" height="30px">
+            <pre>This is to calculate GPA out of 10 points like in the case of VITB</pre>
+        </div>
+        <h1>Calculate Your GPA</h1>
+        
+    </header>
+    <div class = "main">
+        <form action = "#">
+            <div class="courses">
+                <div class = "odd">
+                    <input class ="grade" type="text" placeholder="Enter your grade">
+                    <input class = "credit" type="number" placeholder="Enter the credit amount">
+                </div>
+                <div class = "even">
+                    <input class ="grade" type="text" placeholder="Enter your grade">
+                    <input class = "credit" type="number" placeholder="Enter the credit amount">
+                </div>
+            </div>
+            <br/>
+            <div id="AddCourse">
+                <button type="button"> + </button>
+                <p>Add Course</p>
+            </div>
+            <br/>
+            <input type="button" value = "Calculate" id="submit"> 
+        </form>
+        <h2 id="result"></h2>
+    </div>
+    
+    <script src = "script.js"></script>
+</body>
+</html>

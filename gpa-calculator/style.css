@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+header{
+    display: flex;
+    background-color: #4392F1;
+    text-align: center;
+}
+pre{
+    display: none;
+    opacity: 50%;
+    color:#fff;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    display: flex;
+    width: 40%;
+}
+.main{
+    justify-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+h2{
+    color:#DC493A
+}
+form{
+    justify-items: center;
+    align-items: center ;
+    width: 100%;
+}
+.courses{
+    width: 100%;
+    display:table;
+
+}
+.odd, .even{
+    justify-content:space-evenly;
+    justify-items: center;
+    display: flex;
+    margin: 2vh 0 2vh 0;
+}
+input{
+    height: 10vmin;
+    width: 100vmin;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+button{
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 auto 0 auto ;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+p{
+    margin-top: 1.5vh;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(103, 103, 103);
+    color:#fff;
+    display: none;
+}
+#submit{
+    margin-top: 30px;
+    font-size: 2rem;
+    height:10vmin;
+    width:100%;  
+    cursor: pointer;
+}
+#result{
+    font-size: 3rem;
+}
