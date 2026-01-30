@@ -1,0 +1,76 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #FFFDFD;
+    color: #16001E;
+    font-weight: bolder;
+    text-align: center;
+}
+h1{
+    display: block;
+    width: 100%;
+    margin-top: 0%;
+    font-size: 50px;
+}
+#container{
+    margin: auto;
+    position: relative;
+    background-color: #CBD2D0;
+    box-shadow: 0 2vh 5vh rgba(0,0,0,0.5);
+    height: 400px;
+    width: 1000px;
+    
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+#exi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 5vmin;
+    width: 7vmin;
+}
+.from, .to{
+    margin: 5vh;
+    height: 80%;
+    width: 45%;
+}
+select, input, #out, #from-txt{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1vh;
+}
+#out{
+    margin-left: 15%;
+    border-style: solid;
+    font-size: 1.8rem;
+    font-weight: 900;
+    border: black;
+    width: 70%;
+    background-color: white;
+}
+select{
+    cursor: pointer;
+}
+button{
+    display: block;
+    margin: 5vh auto;
+    width:20vh;
+    height: 10vh;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    background-color: #CBD2D0;
+    cursor: pointer;
+    font-weight: bolder;
+}
