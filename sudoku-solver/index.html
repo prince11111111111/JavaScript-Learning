@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1 id="heading">Sudoku-Solver</h1>
+   <div id="container">
+    <div class="box_column">
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r1 c1" type="number" min="1" max="9"></input>
+                <input class="box r1 c2" type="number" min="1" max="9"></input>
+                <input class="box r1 c3" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r2 c1" type="number" min="1" max="9"></input>
+                <input class="box r2 c2" type="number" min="1" max="9"></input>
+                <input class="box r2 c3" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r3 c1" type="number" min="1" max="9"></input>
+                <input class="box r3 c2" type="number" min="1" max="9"></input>
+                <input class="box r3 c3" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r4 c1" type="number" min="1" max="9"></input>
+                <input class="box r4 c2" type="number" min="1" max="9"></input>
+                <input class="box r4 c3" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r5 c1" type="number" min="1" max="9"></input>
+                <input class="box r5 c2" type="number" min="1" max="9"></input>
+                <input class="box r5 c3" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r6 c1" type="number" min="1" max="9"></input>
+                <input class="box r6 c2" type="number" min="1" max="9"></input>
+                <input class="box r6 c3" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r7 c1" type="number" min="1" max="9"></input>
+                <input class="box r7 c2" type="number" min="1" max="9"></input>
+                <input class="box r7 c3" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r8 c1" type="number" min="1" max="9"></input>
+                <input class="box r8 c2" type="number" min="1" max="9"></input>
+                <input class="box r8 c3" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r9 c1" type="number" min="1" max="9"></input>
+                <input class="box r9 c2" type="number" min="1" max="9"></input>
+                <input class="box r9 c3" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+    </div>
+    <div class="box_column">
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r1 c4" type="number" min="1" max="9"></input>
+                <input class="box r1 c5" type="number" min="1" max="9"></input>
+                <input class="box r1 c6" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r2 c4" type="number" min="1" max="9"></input>
+                <input class="box r2 c5" type="number" min="1" max="9"></input>
+                <input class="box r2 c6" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r3 c4" type="number" min="1" max="9"></input>
+                <input class="box r3 c5" type="number" min="1" max="9"></input>
+                <input class="box r3 c6" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r4 c4" type="number" min="1" max="9"></input>
+                <input class="box r4 c5" type="number" min="1" max="9"></input>
+                <input class="box r4 c6" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r5 c4" type="number" min="1" max="9"></input>
+                <input class="box r5 c5" type="number" min="1" max="9"></input>
+                <input class="box r5 c6" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r6 c4" type="number" min="1" max="9"></input>
+                <input class="box r6 c5" type="number" min="1" max="9"></input>
+                <input class="box r6 c6" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r7 c4" type="number" min="1" max="9"></input>
+                <input class="box r7 c5" type="number" min="1" max="9"></input>
+                <input class="box r7 c6" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r8 c4" type="number" min="1" max="9"></input>
+                <input class="box r8 c5" type="number" min="1" max="9"></input>
+                <input class="box r8 c6" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r9 c4" type="number" min="1" max="9"></input>
+                <input class="box r9 c5" type="number" min="1" max="9"></input>
+                <input class="box r9 c6" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+    </div>
+    <div class="box_column">
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r1 c7" type="number" min="1" max="9"></input>
+                <input class="box r1 c8" type="number" min="1" max="9"></input>
+                <input class="box r1 c9" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r2 c7" type="number" min="1" max="9"></input>
+                <input class="box r2 c8" type="number" min="1" max="9"></input>
+                <input class="box r2 c9" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r3 c7" type="number" min="1" max="9"></input>
+                <input class="box r3 c8" type="number" min="1" max="9"></input>
+                <input class="box r3 c9" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r4 c7" type="number" min="1" max="9"></input>
+                <input class="box r4 c8" type="number" min="1" max="9"></input>
+                <input class="box r4 c9" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r5 c7" type="number" min="1" max="9"></input>
+                <input class="box r5 c8" type="number" min="1" max="9"></input>
+                <input class="box r5 c9" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r6 c7" type="number" min="1" max="9"></input>
+                <input class="box r6 c8" type="number" min="1" max="9"></input>
+                <input class="box r6 c9" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="rows">
+                <input class="box r7 c7" type="number" min="1" max="9"></input>
+                <input class="box r7 c8" type="number" min="1" max="9"></input>
+                <input class="box r7 c9" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r8 c7" type="number" min="1" max="9"></input>
+                <input class="box r8 c8" type="number" min="1" max="9"></input>
+                <input class="box r8 c9" type="number" min="1" max="9"></input>
+            </div>
+            <div class="rows">
+                <input class="box r9 c7" type="number" min="1" max="9"></input>
+                <input class="box r9 c8" type="number" min="1" max="9"></input>
+                <input class="box r9 c9" type="number" min="1" max="9"></input>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div id="btns">
+    <button id="solve">Solve</button>
+    <button id="clear">Clear</button>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
